@@ -3,10 +3,16 @@ import '../../style/color.css';
 import './styles.css';
 var classNames = require('classnames');
 
-const Button = ({ text, ghost, link }) => {
-    let btnClasses = classNames('btn', {'btn-ghost': ghost}, {'btn-link': link});
+const Button = ({ text, variant, type, loading }) => {
+    let btnClasses = classNames('btn', 
+                                {'btn-error': type=='error'},
+                                {'btn-ghost': variant=='ghost'}, 
+                                {'btn-link': variant=='link'},
+                    );
     return(
-        <button className={btnClasses}>{text}</button>
+        <button className={btnClasses}>
+            {loading ? 'Loading...' : text}
+        </button>
     );
 }
 

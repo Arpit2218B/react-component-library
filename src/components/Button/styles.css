@@ -1,20 +1,25 @@
-.btn{
-    /* font-weight: 500;
+.btn {
+  /* font-weight: 500;
     font-size: large; */
-    background-color: var(--color-secondary);
-    color: #fff;
-    border: 2px solid var(--color-secondary);
-    border-radius: 10px;
-    padding: 1em 2em;
+  background-color: var(--color-secondary);
+  color: #fff;
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  padding: 1em 2em;
 }
 
-.btn-ghost{
-    background-color: transparent;
-    color: #000000;
+.btn-error {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 }
 
-.btn-link{
-    background-color: transparent;
-    color: #000000;
-    border: 2px solid transparent;
+.btn-ghost {
+  background-color: transparent;
+  color: #000000;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid transparent;
 }
