@@ -6,6 +6,7 @@
   border: 2px solid var(--color-secondary);
   border-radius: 10px;
   padding: 1em 2em;
+  cursor: pointer;
 }
 
 .btn-error {
