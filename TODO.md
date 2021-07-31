@@ -1,6 +1,6 @@
-[X] Button
-[X] Search
-[X] Avatar
-[ ] Snackbar
-[ ] Tabs
-[ ] Chip
+- [x] Button
+- [x] Search
+- [x] Avatar
+- [ ] Snackbar
+- [ ] Tabs
+- [ ] Chip
