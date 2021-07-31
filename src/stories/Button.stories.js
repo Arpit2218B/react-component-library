@@ -3,7 +3,6 @@ import Button from '../components/Button/Button';
 
 export default {
     title: 'Components/Button',
-    component: Button,
     parameters: {
         backgrounds: {
           values: [
@@ -17,6 +16,7 @@ export default {
 const Template = (args) => <Button {...args} />
 
 export const Normal = Template.bind({})
+console.log(Normal);
 Normal.args = {
     text: 'Register',
     loading: false

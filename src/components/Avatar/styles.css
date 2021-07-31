@@ -1,0 +1,66 @@
+.avatar__container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-primary-100);
+  overflow: hidden;
+}
+
+.avatar {
+  position: relative;
+}
+
+.medium {
+  width: 80px;
+  height: 80px;
+}
+
+.large {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar__container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.avatar__container > p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.avatar__container > .label__medium {
+  font-size: 3rem;
+}
+
+.avatar__container > .label__large {
+  font-size: 3.5rem;
+}
+
+.avatar > .badge {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+
+.avatar > .badge__medium {
+  bottom: 6px;
+  right: 6px;
+}
+
+.avatar > .badge__large {
+  bottom: 8px;
+  right: 8px;
+}
